@@ -1,0 +1,6 @@
+For my first learning project, I am going to create the backend service of a web application. 
+Since this is my first java project the features of it are very simple. This web application has basic user registration/sign in feature and connects to a mySQL
+database. It can also patch/delete/post/get data from database. This application works as a social
+website for users to read the posts post by people they followed and share their own posts. The application
+can also be used to chat with friends, follow or unfollow friends. Since we only have one month
+for this project, I will only complete the backend service for it.
