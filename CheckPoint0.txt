@@ -1,16 +1,5 @@
-For my first learning project, I am going to create the backend service of a web application. 
-Since this is my first java project the features of it are very simple. This web application 
-has basic user registration/sign in feature and connects to a mySQL database. It can also patch/
-delete/post/get data from database. This application works as a social website for users to read 
-the posts post by people they followed and share their own posts. The application can also be 
-used to chat with friends, follow or unfollow friends. Since we only have one month for this 
-project, I will only complete the backend service for it.
+For my first learning project, I am going to create the backend service of a web application. Since this is my first java project the features of it are very simple. This web application has basic user registration/sign in feature and connects to a mySQL database. It can also patch/delete/post/get data from database. This application works as a social website for users to read the posts post by people they followed and share their own posts. The application can also be 
+used to chat with friends, follow or unfollow friends. Since we only have one month for this project, I will only complete the backend service for it.
 
 01/27/2021
-Today, I downloaded mySQL into my labtop. I created a user table which contains (id, name, password,
-follow,followed) and a post table which contains (id, post, comment, like). Follow is the person the
-user is following and followed is the person following this user. I am thinking to create many-to-many
-relationship between tables later. I also found a good tutorial online teaching Java Spring Boot,
-the link is https://www.youtube.com/watch?v=c4mv4N6i3Jc&list=PL9l1zUfnZkZkmDvzHCoLlc_nHBc7ZXiRO.
-I am going to follow this video to create basic patch/delete/post/get endpoints in my server. 
-Besides, I create a mySQL remote database and S3 bucket on AWS to store users' data and images.
+Today, I downloaded mySQL into my labtop. I created a user table which contains (id, name, password, follow,followed) and a post table which contains (id, post, comment, like). Follow is the person the user is following and followed is the person following this user. I am thinking to create many-to-many relationship between tables later. I also found a good tutorial online teaching Java Spring Boot, the link is https://www.youtube.com/watchv=c4mv4N6i3Jc&list=PL9l1zUfnZkZkmDvzHCoLlc_nHBc7ZXiRO. I am going to follow this video to create basic patch/delete/post/get endpoints in my server. Besides, I create a mySQL remote database and S3 bucket on AWS to store users' data and images.
