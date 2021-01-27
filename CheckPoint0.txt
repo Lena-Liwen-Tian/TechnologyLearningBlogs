@@ -1,15 +1,20 @@
-For my first learning project, I am going to create the backend service of a web application. I did not use Java to
+For my first learning project, I am going to create a backend service of a web application. I have not used Java to
 create the backend service before so I hope I could use this chance to learn the backend framework of Java and complete
 one simple web application for it. Since this is my first java project the features of it are very simple. This web application 
 has basic user registration/sign in feature and connects to a mySQL database. It can also patch/delete/post/get data from database. 
-This application works as a social website for users to read the posts post by people they followed and share their own posts. 
-The application can also be used to chat with friends, follow or unfollow friends. Since we only have one month 
+This application works as a social website for users to read the posts posted by people they followed and share their own posts. 
+The application can also be used to chat with friends, follow or unfollow people. Since we only have one month 
 for this project, I will only complete the backend service for it.
 
 01/27/2021
 Today, I downloaded mySQL into my labtop. I created a user table which contains (id, name, password, follow,followed) 
-and a post table which contains (id, post, comment, like). Follow is the person the user is following and followed is 
-the person following this user. I am thinking to create many-to-many relationship between tables later. I also found 
-a good tutorial online teaching Java Spring Boot, the link is https://www.youtube.com/watchv=c4mv4N6i3Jc&list=PL9l1zUfnZkZkmDvzHCoLlc_nHBc7ZXiRO. 
-I am going to follow this video to create basic patch/delete/post/get endpoints in my server. Besides, I create a 
-mySQL remote database and S3 bucket on AWS to store users' data and images.
+and a post table which contains (id, post, comment, like, user). Follow is the person the user is following and followed is 
+the person following this user. I am planning to create many-to-many relationship between tables later so that one person can 
+follow and be followed by many people. In the post table there is a foreign key user connected to the user table.
+
+I also found a good tutorial online teaching Java Spring Boot which is the most popular backend framework for Java, the link is https://www.youtube.com/watchv=c4mv4N6i3Jc&list=PL9l1zUfnZkZkmDvzHCoLlc_nHBc7ZXiRO. Though this tutorial creates a different application
+from mine but it realizes the similar backend features. I am going to follow this video to create basic patch/delete/post/get 
+endpoints in my server. Besides, I create a mySQL remote database and S3 bucket on AWS to store users' data and images. I found
+AWS request a lot of money for a standard mySQL database, so I only choose a free one which is small but good for practise. It 
+takes me a long time to connect to S3 bucket because I do not know I need to set up user creadential ahead of time. I set up my project
+successfully today and the next step will be writing codes for it.
