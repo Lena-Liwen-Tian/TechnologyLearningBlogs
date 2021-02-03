@@ -1,3 +1,4 @@
+--- Checkpoint 0 -- 
 For my first learning project, I am going to create a backend service of a web application. I have not used Java to
 create the backend service before so I hope I could use this chance to learn the backend framework of Java and complete
 one simple web application for it. Since this is my first java project the features of it are very simple. This web application 
