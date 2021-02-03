@@ -8,7 +8,7 @@ The application can also be used to chat with friends, follow or unfollow people
 for this project, I will only complete the backend service for it.
 
 01/27/2021
-Today, I downloaded mySQL into my labtop. I created a user table which contains (id, name, password, follow,followed) 
+Today, I downloaded mySQL into my labtop. I created a user table which contains (id, name, password, email, follow,followed) 
 and a post table which contains (id, post, comment, like, user). Follow is the person the user is following and followed is 
 the person following this user. I am planning to create many-to-many relationship between tables later so that one person can 
 follow and be followed by many people. In the post table there is a foreign key user connected to the user table.
@@ -19,3 +19,4 @@ endpoints in my server. Besides, I create a mySQL remote database and S3 bucket 
 AWS request a lot of money for a standard mySQL database, so I only choose a free one which is small but good for practise. It 
 takes me a long time to connect to S3 bucket because I do not know I need to set up user creadential ahead of time. I set up my project
 successfully today and the next step will be writing codes for it.
+
