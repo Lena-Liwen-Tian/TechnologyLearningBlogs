@@ -1,1 +1,3 @@
+During this week, I have complete a lot of new jobs. I followed the instructions on AWS website and created an AmazonClient in my backend, so now my application
+can interact with AWS RDS database and S3 bucket successfully. I used the endPointUrl, accessKey and secretKey to create the config. Since I need to allow the users submit their images into the S3 bucket, I also created a function to let users submit images as a version of file. The functions are shown below.
 
