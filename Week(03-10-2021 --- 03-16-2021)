@@ -1,0 +1,5 @@
+This week, I started building project2. Since I am going to use React as the frontend framework. I watched some short tutorials online. I have not 
+used React for a while so I need these tutorials to help me review it again. I decided to use React hooks which become more and more popular these
+two years. It can help me to change the status of different components easier. This week, I mainly focused on creating the modal and the menu on the
+website. I put them on the home page which is under the route "/". I found a website called Bootstrap which has a lot of reusable component structures.
+I found the menu bar and medal there and applied them to my project.
