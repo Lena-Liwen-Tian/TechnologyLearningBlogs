@@ -1,0 +1,12 @@
+I mainly focused on creating the pop up windows. I found a lot of examples online on Ant Design and Bootstrap. It was not so difficult to create 
+the window but it took me a long time to fit all the contents in the window. I planned to have a comment block for users to make comments, vote
+button for users to "like" the post. Though I found some icons on the web that can be used as the vote button but their colors were not what I like.
+I cannot use the icon tag without any modifications. So I decided to change the color by myself. These built-in buttons have their own design style and I 
+did not know how to change it at the very beginning. I asked some of my friends who are expertise in front end design about how to change the 
+design of the icon from Ant Design, they told me I could look at the class name of that component. They taught me to right click the web page and inspected the
+class name of that element. It worked like a magic! I did not know that we could get all the component design in detail only by inspecting the web page. I tried
+it by myself and got the class name successfully. I changed the color by using the built-in class name of that icon successfully. I even found that we 
+could have a temporary overiview of the component by changing the parameters in the inspection window. This method is very useful for the front end development.
+I used this same method when I tried to change the design of the tag icons in the window to categorize different posts and it worked pretty well. Now all windows
+are set up, the next step is to connect them with the backend. I plan to run them locally so I need to use local ports. I want to use the popular useEffect
+method to fetch the backend. I am not very familar with this method. So I found some relevant tutorials and prepare for my tasks next week.
