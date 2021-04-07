@@ -9,5 +9,4 @@ Then I changed the strategy and tried to search "spring boot unsecured endpoints
 on StackOverflow talking about the similar problem. I read their answers which suggest add a config file to restrict the secure endpoints. 
 So I creatd a config file and permit the access to all unsecured endpoints. Finally, it works. I also added some secure routes in my front end,
 so that some contents cannot be seen by users before login. On the official website of React, I learned how to use fetch and axios together with useEffect 
-to get data from backend. The explanation is clear and easy to understand. Now I almost complete the front end development. Next step is try to deploy
-both the frontend and backend.
+to get data from backend. The explanation is clear and easy to understand. Now I almost complete the front end development. 
