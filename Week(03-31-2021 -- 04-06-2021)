@@ -1,12 +1,12 @@
-This week is harder than I expected. Firstly, I found the free tier of my AWS acccount has expired. I have to create a new account to host mySQL database
+This week is harder than I expected. Firstly, I found the free tier of my AWS acccount has expired. I need to create a new account to host mySQL database
 and S3 storage. It only allows one-year free trail. So I have to establish the backend connection again. I forgot some steps and used a wrong endpoint for 
-database connection. I read AWS document and then found I missed the database name. Secondly, I was thinking about to connect the front end with my back end 
+database connection. I read AWS document and then found I also missed the database name. Secondly, I was thinking about to connect the front end with my back end 
 sever this week. However, I failed a lot of times. I was mainly in trouble with user authentication. I added jwt tokens to implement user 
 authentication. I read some blogs on Medium to understand how to exchange tokens. I found that I could add Spring security in the backend. I searched online 
 but I did not find a very good example for it. Most examples online only implement secured endpoints for user authentication, but I have both secured 
 and unsecured endpoints. I found one tutorial on Youtube teaching how to do user authentication but his method caused 401 error in my unsecured endpoints. 
 Then I changed the strategy and tried to search "spring boot unsecured endpoints" instead of "spring boot user authentication". There were some questions
 on StackOverflow talking about the similar problem. I read their answers which suggest add a config file to restrict the secure endpoints. 
-So I creatd a config file and permit the access to all unsecured endpoints. Finally, it works. I also added some secure routes in my front end,
+So I creatd a config file and permit the access to all unsecured endpoints. Finally, it worked. I also added some secure routes in my front end,
 so that some contents cannot be seen by users before login. On the official website of React, I learned how to use fetch and axios together with useEffect 
 to get data from backend. The explanation is clear and easy to understand. Now I almost complete the front end development. 
