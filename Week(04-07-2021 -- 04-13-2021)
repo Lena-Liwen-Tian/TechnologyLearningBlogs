@@ -1,0 +1,12 @@
+Today, I completed the final modification of the front end development together with the database connection of this application. I 
+lost the connection to the AWS today at the very beginning even though I did not change any codes. I tried to restart both my backend
+and mySQL GUI but I still cannot connect to the RDS on AWS. Then I realized that I forgot to change the IP address in the inbound rule
+of AWS database. The IP address on campus is different from the IP address at home. I changed the inbound rule to allow all traffic and then
+the connection was created successfully. I also added one "Follow" button in the modal today for users to follow the auther they like. 
+The button can also be used one time which means the user is not allowed to follow the same author twice. I searched on React Bootstrap and I 
+found there is a parameter called "disable" for the button component. But I still do not know how to set this parameter to be true just after
+one-click. I googled this again and found some examples in the StackOverflow. So I just need to add one variable called "haveclick" to track the button status. 
+When the button is clicked, the value of "haveclick" becomes true and the "disable" will become true. It looks like a magic. Now it works exactly
+in the way I want. Now this React + SpringBoot + JWT authentcation project is completed. I uploaded the screen record when I was using this 
+appliction to my GoogleDrive. The link is https://drive.google.com/file/d/1qhq2V5TLFFdKCnhrl6fNxEqtapvUTVuP/view?usp=sharing.Please feel free to 
+download and take a look!
